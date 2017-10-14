@@ -55,11 +55,11 @@
 }
 
 @keyframes flash {
-  from, 50%, to {
+  from {
     opacity: 1;
   }
 
-  25%, 75% {
+  to {
     opacity: 0;
   }
 }
@@ -548,7 +548,7 @@
 
   to {
     opacity: 0;
-    transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -150px, 0);
   }
 }
 
